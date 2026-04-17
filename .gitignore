@@ -44,4 +44,4 @@ htmlcov/
 !.env.example
 
 # Misc
-/notesAndStuff/
+notesAndStuff/
