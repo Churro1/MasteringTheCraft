@@ -1,0 +1,81 @@
+{
+  "run_id": "practice_seed_001",
+  "player": "student_player",
+  "game_version": "1.16.1",
+  "segment": "overworld_to_nether",
+  "seed": "-4530634556500121041",
+  "events": [
+    {
+      "tick": 0,
+      "type": "spawn",
+      "position": {
+        "x": 14,
+        "y": 67,
+        "z": -22
+      }
+    },
+    {
+      "tick": 430,
+      "type": "block_break",
+      "block": "oak_log",
+      "count": 9,
+      "position": {
+        "x": 29,
+        "y": 70,
+        "z": -11
+      }
+    },
+    {
+      "tick": 770,
+      "type": "craft",
+      "item": "wooden_pickaxe",
+      "count": 1
+    },
+    {
+      "tick": 980,
+      "type": "craft",
+      "item": "stone_tools",
+      "count": 3
+    },
+    {
+      "tick": 1650,
+      "type": "block_break",
+      "block": "hay_block",
+      "count": 22,
+      "position": {
+        "x": 141,
+        "y": 71,
+        "z": 18
+      }
+    },
+    {
+      "tick": 2250,
+      "type": "block_break",
+      "block": "iron_ore",
+      "count": 12,
+      "position": {
+        "x": 183,
+        "y": 53,
+        "z": 25
+      }
+    },
+    {
+      "tick": 2760,
+      "type": "entity_kill",
+      "entity": "iron_golem",
+      "drops": {
+        "iron_ingot": 4
+      }
+    },
+    {
+      "tick": 4860,
+      "type": "portal_enter",
+      "dimension": "the_nether",
+      "position": {
+        "x": 219,
+        "y": 64,
+        "z": 74
+      }
+    }
+  ]
+}
